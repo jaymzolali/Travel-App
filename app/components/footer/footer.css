@@ -1,0 +1,59 @@
+.dark{
+    background-color: #0c0c0c;
+    width: 100%;
+    height: 45vh;
+    /* border: 1px solid red; */
+}
+.happy{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: grid;
+    place-items: center;
+}
+.happy h1{
+    color: #f3f2f2;
+}
+.happy p{
+    color: #b6b6b6;
+}
+.footer-socials{
+    margin-top: 3rem;
+    gap: 3rem;
+}
+.facebook{
+    background: url(../../../public/assets/facebook-176-svgrepo-com.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 70%;
+}
+.instagram{
+    background: url(../../../public/assets/instagram-167-svgrepo-com.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 70%;
+}
+.tiktok{
+    background: url(../../../public/assets/tiktok-svgrepo-com.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 70%;
+}
+.youtube{
+    background: url(../../../public/assets/youtube-168-svgrepo-com.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 70%;
+}
+.x{
+    background: url(../../../public/assets/icons8-twitterx.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 70%;
+}
+.copyright{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: grid;
+    place-items: center;
+    color: #b6b6b6;
+}

@@ -1,0 +1,35 @@
+
+
+.help-img1{
+    background: url(./idea-light-bulb-svgrepo-com.svg) no-repeat center;
+    width: 5rem;
+    height: 5rem;
+    background-size: 100%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+.help-img2{
+    background: url(./travel-holiday-vacation-28-svgrepo-com.svg) no-repeat center;
+    width: 5rem;
+    height: 5rem;
+    background-size: 100%;
+    margin: 0 auto;
+}
+.help-img3{
+    background: url(./gift-svgrepo-com.svg) no-repeat center;
+    width: 5rem;
+    height: 5rem;
+    background-size: 100%;
+    margin: 0 auto;
+}
+.help-img4{
+    background: url(./travel-holiday-vacation-29-svgrepo-com.svg) no-repeat center;
+    width: 5rem;
+    height: 5rem;
+    background-size: 100%;
+    margin: 0 auto;
+}
+.help1, .help2, .help3, .help4, h3{
+    display: grid;
+    place-items: center;
+}

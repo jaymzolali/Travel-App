@@ -1,0 +1,44 @@
+.headd{
+    background-color: #00a0ff;
+}
+
+.bttn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: #f04a0d;
+    color: #ffffff;
+    width: 100%;
+    height: 2rem;
+}
+
+.tfrom-img{
+    background: url(./airport-control-tower-svgrepo-com.svg) no-repeat center;
+    background-size: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.tto-img{
+    background: url(./location-svgrepo-com.svg) no-repeat center;
+    background-size: 100%;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.cal-img{
+    background: url(./location-svgrepo-com.svg) no-repeat center;
+    background-size: 100%;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.daat-img{
+    background: url(./calender-svgrepo-com.svg) no-repeat center;
+    background-size: 100%;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.clock-img{
+    background: url(./clock-three-svgrepo-com.svg) no-repeat center;
+    background-size: 100%;
+    width: 1.6rem;
+    height: 1.6rem;
+}

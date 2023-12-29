@@ -1,0 +1,144 @@
+.airline{
+    margin-bottom: 7rem;
+}
+
+.swiper-slide1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10%;
+    /* margin: auto; */
+}
+.swiper-slide2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10%;
+    /* margin: auto; */
+}
+.swiper-slide3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10%;
+    /* margin: auto; */
+}
+.swiper-slide4{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10%;
+    /* margin: auto; */
+}
+
+/* slider 1 */
+.image-container4{
+    background: url(./All_Nippon_Airways_Logo.svg.png) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.image-container2{
+    background: url(./airindia-red.svg) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.image-container3{
+    background: url(./alaskaair.png) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.image-container1{
+    background: url(./Britishair.png) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+
+
+/* slider 2 */
+.image-container41{
+    background: url(./delta_c_r.png) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.image-container21{
+    background: url(./emirates-logo-badge.avif) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 60%;
+}
+.image-container31{
+    background: url(./etihad.png) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.image-container11{
+    background: url(./france\ air.gif) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+
+
+/* slider 3 */
+.image-container42{
+    background: url(./indigo\ logo.png) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.image-container22{
+    background: url(./japanair.png) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.image-container32{
+    background: url(./jetair.jpeg) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.image-container12{
+    background: url(./KLM_logo.svg.png) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+
+
+/* slider 4 */
+
+.image-container43{
+    background: url(./lufthansa.jpg) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.image-container23{
+    background: url(./qantas.jpg) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.image-container33{
+    background: url(./qatarair.png) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.image-container13{
+    background: url(./Singapore_Airlines_Logo_2.svg.png) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+
+
+
+

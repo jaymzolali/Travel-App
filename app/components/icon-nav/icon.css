@@ -1,0 +1,41 @@
+
+.flight-icon{
+    background: url(../../../public/assets/flight-svgrepo-com.svg) no-repeat center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #87CEEB;
+    background-size: 80%;
+    border-radius: 50%;
+}
+.hotel-icon{
+    background: url(../../../public/assets/hotel-building-svgrepo-com.svg) no-repeat center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #12026b;
+    background-size: 60%;
+    border-radius: 50%;
+}
+.xperience-icon{
+    background: url(../../../public/assets/pin-location-svgrepo-com.svg) no-repeat center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #e73847;
+    background-size: 60%;
+    border-radius: 50%;
+}
+.carrental-icon{
+    background: url(../../../public/assets/car-key-svgrepo-com.svg) no-repeat center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #025a2a;
+    background-size: 60%;
+    border-radius: 50%;
+}
+.airport-icon{
+    background: url(../../../public/assets/car-svgrepo-com.svg) no-repeat center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #81f399;
+    background-size: 60%;
+    border-radius: 50%;
+}

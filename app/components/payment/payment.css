@@ -1,0 +1,22 @@
+.sec{
+    margin-bottom: 5rem;
+}
+
+.visa{
+    background: url(../../../public/assets/visa-svgrepo-com.svg) no-repeat center;
+    width: 3rem;
+    height: 2rem;
+    background-size: 100%;
+}
+.mastercard{
+    background: url(../../../public/assets/mastercard-svgrepo-com.svg) no-repeat center;
+    width: 3rem;
+    height: 2rem;
+    background-size: 100%;
+}
+.paypal{
+    background: url(../../../public/assets/paypal-svgrepo-com.svg) no-repeat center;
+    width: 3rem;
+    height: 2rem;
+    background-size: 100%;
+}

@@ -1,0 +1,178 @@
+.navbar{
+    background-color: #00a0ff;
+    width: 100%;
+    height: 7vh;
+    display: grid;
+    /* place-items: center; */
+    grid-template-columns: 42% 53% 8%;
+    /* position: fixed;
+    top: 0;
+    z-index: 1000; */
+}
+.hamb{
+    background: url(../../../public/assets/hamburger-menu-svgrepo-com.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+    margin: 8px 15px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.user{
+    background: url(../../../public/assets/user-svgrepo-com.svg) no-repeat center;
+    margin: 8px 15px;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+    display: grid;
+    place-items: center;
+    /* border: 1px solid red; */
+}
+.contain{
+    position: relative;
+}
+
+.home-img{
+    background: url(../../../public/assets/home-1-svgrepo-com.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+}
+.log-img{
+    background: url(./user-svgrepo-com\ \(1\).svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+}
+.cntct-img{
+    background: url(./phone-svgrepo-com.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+}
+.help-img{
+    background: url(./help-circle-svgrepo-com.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+}
+.promo-img{
+    background: url(./discount-sign-money-svgrepo-com.svg) no-repeat center;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-size: 100%;
+}
+.flight-img{
+    background: url(../../../public/assets/flight-svgrepo-com\ \(1\).svg) no-repeat center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 100%;
+}
+.hotel-img{
+    background: url(../../../public/assets/hotel-building-svgrepo-com\ \(1\).svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+}
+.expi-img{
+    background: url(../../../public/assets/pin-location-svgrepo-com\ \(1\).svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+}
+.port-img{
+    background: url(../../../public/assets/car-key-svgrepo-com\ \(1\).svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+}
+
+.menu {
+    z-index: 111111;
+    position: absolute;
+    top: 0;
+    left: 0; /* Initial position: fully off-screen to the right */
+    width: 88vw;
+    height: 100vh;
+    background-color: #f8f4f4;
+    color: #808080;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 3%;
+    animation: slideInFromLeft 0.3s ease forwards; /* Apply animation to slide in from the right */
+  }
+
+
+
+  .menu.open {
+    left: 0; /* Slide in the menu from the right when it's open */
+  }
+
+
+  .close-icon {
+    cursor: pointer;
+  }
+  
+  .close-icon span {
+    position: absolute;
+    top: 150px;
+    right: -45px;
+    background: url(./close-square-svgrepo-com.svg) no-repeat center;
+    width: 3rem;
+    height: 3rem;
+    background-size: 100%;
+    display: inline-block;
+    transition: transform 0.8s ease; 
+  }
+  
+  .close-icon.active span {
+    animation: slideOut 0.3s ease; /* Apply the rotateIcon animation when the icon is active */
+  }
+  
+
+
+
+
+
+
+
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0); /* Start position: fully off-screen to the right */
+    }
+    to {
+        transform: translateX(-150%); /* End position: fully on-screen */
+    }
+}
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%); /* Start position: fully off-screen to the right */
+    }
+    to {
+        transform: translateX(0); /* End position: fully on-screen */
+    }
+}
+
+
+@media (max-width: 800px) {
+    .navbar{
+        background-color: #00a0ff;
+        width: 100%;
+        height: 7vh;
+        display: grid;
+        /* place-items: center; */
+        grid-template-columns: 42% 43% 10%;
+    }
+    .user{
+        background: url(../../../public/assets/user-svgrepo-com.svg) no-repeat center;
+        /* margin: 8px 15px; */
+        margin-right: -20px;
+        width: 2rem;
+        height: 2rem;
+        background-size: 100%;
+        display: grid;
+        place-items: center;
+        /* border: 1px solid red; */
+    }
+}

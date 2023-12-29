@@ -1,0 +1,79 @@
+
+
+.hottels{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(65px, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.hottelss{
+    gap: 2rem;
+    display: grid;
+    place-items: center;
+    /* grid-template-columns: repeat(auto-fill, minmax(65px, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.all{
+    background: url(./all.png) no-repeat center;
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+.all2{
+    background: url(./westhotel.png) no-repeat center;
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+.all3{
+    background: url(./frasers.png) no-repeat center;
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+.all4{
+    background: url(./louvre.png) no-repeat center;
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+.all5{
+    background: url(./marriot.png) no-repeat center;
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+.all6{
+    background: url(./melia.png) no-repeat center;
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+.all7{
+    background: url(./starwood.png) no-repeat center;
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+.all8{
+    background: url(./swiss.png) no-repeat center;
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+.all9{
+    background: url(./wyndham.jpg) no-repeat center;
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+.all10{
+    background: url(./lotte.jpeg) no-repeat center;
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+}

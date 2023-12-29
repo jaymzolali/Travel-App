@@ -1,0 +1,74 @@
+.boo_{
+    background-color: #00a0ff;
+}
+.bflight{
+    height: 78vh;
+}
+
+.frm-img{
+    background: url(../../../public/assets/flight-takeoff-svgrepo-com.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+}
+.to-img{
+    background: url(../../../public/assets/flight-landing-svgrepo-com.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+}
+.dep-date-img{
+    background: url(../../../public/assets/calander-interface-icon-svgrepo-com.svg) no-repeat center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: 100%;
+}
+
+.departure{
+    position: relative;
+    top: -150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+}
+
+/* .cal-{
+    border: 1px solid red;
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    height: 2rem;
+} */
+.btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: #f04a0d;
+    color: #ffffff;
+    width: 100%;
+    height: 2rem;
+}
+
+.pass-img{
+    background: url(../../../public/assets/users-svgrepo-com.svg) no-repeat center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: 100%;
+}
+.seat-img{
+    background: url(../../../public/assets/seat-svgrepo-com.svg) no-repeat center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: 100%;
+}
+
+
+
+
+
+@media (min-width: 800px){
+    .bflight{
+        height: 95vh;
+    }
+
+}

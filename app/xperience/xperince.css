@@ -1,0 +1,13 @@
+.xprn{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.x-img{
+    width: 42vw;
+    height: 15vh;
+    background-color: rgb(249, 170, 124);
+    border-radius: 10px;
+}

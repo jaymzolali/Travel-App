@@ -1,0 +1,18 @@
+.dest-img{
+    background: url(./location-svgrepo-com.svg) no-repeat center;
+    background-size: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+.cal-img{
+    background: url(./calender-svgrepo-com.svg) no-repeat center;
+    background-size: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+.room-img{
+    background: url(./door-handle-svgrepo-com.svg) no-repeat center;
+    background-size: 100%;
+    width: 2rem;
+    height: 2rem;
+}

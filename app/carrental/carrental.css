@@ -1,0 +1,41 @@
+.rent-head{
+    background-color: #00a0ff;
+}
+
+.rentloc-img{
+    background: url(./location-svgrepo-com.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+}
+.rentstart-img{
+    background: url(./calender-svgrepo-com.svg) no-repeat center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 100%;
+}
+.rentend-img{
+    background: url(./calender-svgrepo-com.svg) no-repeat center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 100%;
+}
+
+.rentals h3{
+    color: #00a0ff;
+    width: 10rem;
+    padding: 0.6rem 0;
+    /* height: 2rem; */
+    border-radius: 5px;
+    border: 1px solid #00a0ff;
+}
+
+.bttn-car{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: #f04a0d;
+    color: #ffffff;
+    width: 100%;
+    height: 2rem;
+}
